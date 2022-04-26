@@ -1,0 +1,86 @@
+.NavbarBottom {
+  background-color: #0348afe0;
+  width: 100%;
+  border-top: 1px solid #0348afe0;
+}
+
+.NavbarBottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavbarBottom ul .nav_li {
+  cursor: pointer;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.NavbarBottom ul .nav_li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.NavbarBottom ul .nav_li:hover .position {
+  display: block;
+}
+
+.NavbarBottom ul .nav_li a {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.NavbarBottom ul .nav_li a svg {
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 18px;
+  height: 18px;
+}
+.NavbarBottom ul .nav_li:last-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.NavbarBottom ul .nav_li .position {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: absolute;
+  border: 1px solid #e3e3f7;
+  width: 200px;
+  top: 50px;
+  left: -3px;
+  display: none;
+}
+.NavbarBottom ul .nav_li .position span {
+  padding: 14px 20px;
+  display: block;
+}
+.NavbarBottom ul .nav_li .position span a {
+  color: #1c1d22;
+  font-size: 13px;
+  transition: 0.3s;
+  padding: 0;
+}
+
+.NavbarBottom ul .nav_li .position span:hover a {
+  color: #0348afe0;
+}
+
+.darkmode_border {
+  border-top: 1px solid #333438;
+}
+
+.darkmode_border .position {
+  background: #1c1d22 !important;
+  border: 1px solid #333438 !important;
+}
+
+.darkmode_border .position span a {
+  color: #fff !important;
+}
+
+.darkmode_border .position span a:hover {
+  color: #2e89ff !important;
+}

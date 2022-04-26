@@ -1,0 +1,93 @@
+.bgShopping {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.32);
+  z-index: 12;
+}
+
+.shop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 13;
+  background: #ffffff;
+  color: #000;
+  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024,
+    0 9px 46px 8px #0000001f;
+  padding: 24px;
+  border-radius: 4px;
+  height: 450px;
+}
+
+.shop .close {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.shop .panes h4 {
+  color: #000;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 23px;
+}
+
+.shop .panes p {
+  font-size: 87.5%;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.shop .panes h5 {
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+.shop .panes h3 {
+    font-size: 16px;
+    font-weight: 300;
+  color: #ff1a1a !important;
+}
+
+.shop .close button {
+  font-size: 0.65rem !important;
+  min-width: 1.625rem !important;
+  padding: 0.25rem 0.5rem !important;
+  line-height: 1.33333333 !important;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #495057;
+  background-color: #f8f9fa;
+  border-color: #e3e3f7;
+}
+
+.shop .tabpane .tabs ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop .tabpane .tabs ul li a {
+  display: block;
+  padding: 15px 60px;
+  color: #000000de;
+  display: flex;
+  align-items: center;
+}
+
+.shop .tabpane .tabs ul li a img {
+  width: 23px;
+  margin-right: 6px;
+}
+
+.shop .tabpane .tabs ul li a.active {
+  border-bottom: 2px solid #3f51b5;
+}
+
+.shop .tabpane .d_none {
+  display: none;
+}

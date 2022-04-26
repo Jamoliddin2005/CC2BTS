@@ -1,0 +1,44 @@
+.add {
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 30px 0;
+}
+
+.add form {
+  width: 50%;
+  padding: 20px 40px;
+  margin: 30px auto;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.add form label {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+.add form input {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+.add form textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+}
+
+.add form button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.dark-form-mode {
+  background-color: #262932 !important;
+  color: white;
+}

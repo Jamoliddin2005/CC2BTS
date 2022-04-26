@@ -1,0 +1,48 @@
+.New {
+  width: 32%;
+  margin-bottom: 0.8rem;
+  border-radius: 6px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  border: 1px solid #e3e3f7;
+  background-clip: border-box;
+  box-shadow: none;
+}
+
+.New a {
+  color: #1c1d22;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.New a:hover {
+  text-decoration: underline;
+}
+.New p {
+  color: #1c1d22;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+.New p span {
+  color: #21c44c;
+}
+
+.dark-mode-new {
+  background: #262932 !important;
+  border: 1px solid #333438;
+}
+
+.dark-mode-new p,
+.dark-mode-new a {
+  color: #bbb !important;
+}

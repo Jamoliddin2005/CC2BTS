@@ -1,0 +1,42 @@
+.Levels {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e6f1;
+  margin-top: 10px;
+}
+.Levels .left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Levels .left img {
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.Levels .left span {
+  color: #0348afe0 !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Levels .right {
+  margin-left: 20px;
+}
+.Levels .right h4 {
+  color: #1d262c;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.Levels .right h3 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.Levels .right p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 5px;
+}

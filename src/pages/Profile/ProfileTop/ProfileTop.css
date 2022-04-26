@@ -1,0 +1,75 @@
+.ProfileTop {
+  width: 98%;
+  margin: auto;
+  border-radius: 6px;
+  padding: 20px;
+  background: #fff;
+  margin-top: 20px;
+  padding-bottom: 14px;
+}
+.ProfileTop .top {
+  display: flex;
+}
+
+.ProfileTop .left {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ProfileTop .left img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.ProfileTop .right h4 {
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+.ProfileTop .right h5 {
+  font-weight: 300;
+  color: #8c8ea9 !important;
+  margin-bottom: 30px;
+}
+
+.ProfileTop .tabPane {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 13px;
+  border-top: 1px solid #e3e3f7 !important;
+}
+
+.ProfileTop .tabPane li a {
+  padding: 10px 30px;
+  color: #374254;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.ProfileTop .tabPane li a.active {
+  border-bottom: 5px solid #0348afe0;
+}
+
+.bg-profile-top {
+  background-color: #262932;
+  border: 1px solid #333438;
+}
+.bg-profile-top .left a {
+  color: #2e89ff !important;
+}
+
+.bg-profile-top .tabPane {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.bg-profile-top li a {
+  color: #bbb !important;
+}
+
+.bg-profile-top li a.active {
+  border-bottom: 5px solid #6e717b !important;
+}

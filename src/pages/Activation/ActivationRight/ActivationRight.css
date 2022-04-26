@@ -1,0 +1,44 @@
+.ActivationRight {
+  width: 49.5%;
+  background-color: #fff;
+  border: 1px solid #e3e3f7;
+  border-radius: 6px;
+}
+
+.ActivationRight .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+  min-height: 3.5rem;
+  border-bottom: 1px solid #e3e3f7;
+}
+
+.ActivationRight .top h4 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.ActivationRight .center {
+  padding: 1.5rem;
+}
+
+.bg-dark-activation-right {
+  background-color: #262932;
+  border: 1px solid #333438;
+}
+
+.bg-dark-activation-right h4,
+.bg-dark-activation-right h3,
+.bg-dark-activation-right p {
+  color: #bbb !important;
+}
+
+.bg-dark-activation-right .center .left span {
+  color: #2e89ff !important;
+}
+
+.bg-dark-activation-right .top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}

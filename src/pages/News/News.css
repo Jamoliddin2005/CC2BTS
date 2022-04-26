@@ -1,0 +1,5 @@
+.News {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}

@@ -1,0 +1,19 @@
+.balance p {
+  margin: 0 0 12px;
+  margin-bottom: 1.5rem !important;
+}
+
+.balance button {
+  color: #fff;
+  background: #0348afe0 !important;
+  border-color: #0348afe0 !important;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  font-size: 0.65rem !important;
+  min-width: 1.625rem !important;
+  padding: 0.25rem 0.5rem !important;
+  line-height: 1.33333333 !important;
+  cursor: pointer;
+  border: 1px solid transparent;
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: fa5-proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e5e6f1;
+}
+
+code {
+  font-family: fa5-proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background: #18191a !important;
+}
+.dark-mode-bg {
+  background: #262932 !important;
+}

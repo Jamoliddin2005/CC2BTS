@@ -1,0 +1,44 @@
+.Transactions {
+  display: flex;
+}
+
+.Transactions p {
+  color: #2e3138;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.Transactions .CURRENCY,
+.AMOUNT,
+.USD,
+.COURSE,
+.CONFIRMATIONS,
+.DATE {
+  vertical-align: bottom;
+  border-bottom: 1px solid #e3e3f7;
+  border: 1px solid #e3e3f7;
+  padding: 0.3rem;
+  border-bottom-width: 1px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.Transactions .CURRENCY {
+  width: 20%;
+}
+
+.Transactions .AMOUNT {
+  width: 18%;
+}
+.Transactions .USD {
+  width: 8%;
+}
+.Transactions .COURSE {
+  width: 17%;
+}
+.Transactions .CONFIRMATIONS {
+  width: 25%;
+}
+.Transactions .DATE {
+  width: 16%;
+}
